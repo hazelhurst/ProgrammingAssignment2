@@ -15,7 +15,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-# cacheSolve takes ac "matrix" object (created by the makeCacheMatrix function)
+# cacheSolve takes a "matrix" object (created by the makeCacheMatrix function)
 # as an arugment and returns the inverse of that "matrix" object. If the inverse
 # has already been computed,cacheSolve will not compute the inverse, but instead
 # return the cached value of the inverse.
